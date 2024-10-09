@@ -12,7 +12,7 @@ Solve efficiently these instances customizing a technique discussed in class
 | 6        | 100,000       | 10,000   | 0.3     |
 
 # Description 
-The algorithm uses **hill climbing** gives priority to improving the current solution, accepts worse solutions (**simulated annealing**) as temperature increases. With some probability accepts (intermediate) non-covering solutions.
+The algorithm based on **hill climbing** gives priority to improving the current solution, accepts worse solutions (**simulated annealing**) as temperature increases. With some probability accepts (intermediate) non-covering solutions.
 
 # Contributors
 Some techniques implemented in my proposal were discussed and developed jointly with my colleague [GDennis01](https://github.com/GDennis01/).
