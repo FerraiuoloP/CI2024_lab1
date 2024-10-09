@@ -12,9 +12,21 @@ Solve efficiently these instances customizing a technique discussed in class
 | 6        | 100,000       | 10,000   | 0.3     |
 
 # Description 
-The algorithm based on **hill climbing** gives priority to improving the current solution, accepts worse solutions (**simulated annealing**) as temperature increases. With some probability accepts (intermediate) non-covering solutions.
-# Run
+The algorithm is based on **hill climbing**. It prioritizes improving the current solution but allows worse solutions (**simulated annealing**) as the temperature increases. With some probability, it may also accept intermediate non-covering solutions.
+# How to run
 To run in a virtual environment follow the istructions [here](https://github.com/squillero/computational-intelligence/tree/master/2024-25/contrib/poetry_installation_guide) (skipping the creation of .toml and .ipynb files)
+# Performance
+The following table shows some sample performance; all solutions are valid. **The number of steps has been fixed to 5000 in every instance.** \
+The solution index represents the number of steps taken to find the best solution. \
+The solution's cost is negative, with values closer to zero being better.
+| Instance | Solution index | Cost of solution 
+|----------|---------------|----------|
+| 1        | 4           | -257       |
+| 2        | 1583         | -6086      |
+| 3        | 3336        | -128007   | 
+| 4        | 4995       | -74945741   | 
+| 5        | 5000       | -162907903   | 
+| 6        | 5000       | -256534373   | 
 # Contributors
 Some techniques implemented in my proposal were discussed and developed jointly with my colleagues [GDennis01](https://github.com/GDennis01/) and [XhoanaShkajoti](https://github.com/XhoanaShkajoti) (on different occasions)\
 We started from the same template, then we discussed how simulated annealing would work in our scenario and we sort of implemented it together (although our versions differ).
