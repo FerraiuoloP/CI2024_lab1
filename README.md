@@ -11,8 +11,8 @@ Solve efficiently these instances customizing a technique discussed in class
 | 5        | 100,000       | 10,000   | 0.2     |
 | 6        | 100,000       | 10,000   | 0.3     |
 
-# Choices 
-The algorithm uses **hill climbing** with **simulated Annealing** and can accept invalid solutions (as intermediate) to improve exploration.
+# Description 
+The algorithm uses **hill climbing** gives priority to improving the current solution, accepts worse solutions (**simulated annealing**) as temperature increases. With some probability accepts (intermediate) non-covering solutions.
 
 # Contributors
 Some techniques implemented in my proposal were discussed and developed jointly with my colleague [GDennis01](https://github.com/GDennis01/).
